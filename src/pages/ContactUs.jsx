@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO';
 
 const ContactUs = () => {
   useEffect(() => {
@@ -26,8 +27,56 @@ const ContactUs = () => {
     }
   ];
 
+  const contactSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Us",
+          "item": "https://gradient-edu.com/contact"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Gradient Edu",
+      "url": "https://gradient-edu.com",
+      "logo": "https://gradient-edu.com/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+44 7892 838321",
+          "contactType": "customer service",
+          "email": "info@gradient-edu.com",
+          "availableLanguage": ["English", "Arabic"]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shams Business Centre, Sharjah Media City",
+        "addressLocality": "Sharjah",
+        "addressCountry": "AE"
+      }
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen py-16 lg:py-24">
+      <SEO 
+        title="Contact Gradient Edu | Speak With Our Global Study Consultants"
+        description="Get in touch with Gradient Edu. Reach out via WhatsApp or email for personalized university selection, admissions counseling, agent partnerships, and institutional relations."
+        schemaMarkup={contactSchemas}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header Section */}

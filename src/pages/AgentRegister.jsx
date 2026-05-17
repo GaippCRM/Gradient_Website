@@ -1,14 +1,41 @@
 import React, { useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const AgentRegister = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const agentSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Agent Partner Signup",
+          "item": "https://gradient-edu.com/agent-register"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-gradient-to-br from-indigo-50/70 via-white to-blue-50/70 min-h-screen pt-16 pb-24 font-sans relative overflow-hidden">
+      <SEO 
+        title="Agent Recruitment Partner Signup | Gradient Edu"
+        description="Become a Gradient Edu recruitment partner. Access highly competitive commission rates, dedicated support, and secure document processing to maximize your student enrollments."
+        schemaMarkup={agentSchemas}
+      />
 
       {/* Subtle Graph Paper Background overlay matching site theme */}
       <div className="absolute inset-0 z-0 opacity-40 pointer-events-none"

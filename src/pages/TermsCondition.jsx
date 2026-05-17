@@ -1,13 +1,40 @@
 import React, { useEffect } from 'react';
 import { Star } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const TermsCondition = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const termsSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Terms and Conditions",
+          "item": "https://gradient-edu.com/terms-condition"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-gray-50/50 min-h-screen pb-24 font-sans">
+      <SEO 
+        title="Terms and Conditions | Gradient Edu Legal Agreement"
+        description="Review the Terms and Conditions of using Gradient Edu. Read about our international admissions services, document handling policies, liability limitations, and user obligations."
+        schemaMarkup={termsSchemas}
+      />
 
       {/* Hero Header Section */}
       <div className="relative pt-20 pb-24 border-b border-gray-100 overflow-hidden bg-gradient-to-br from-indigo-50/70 via-white to-blue-50/70">

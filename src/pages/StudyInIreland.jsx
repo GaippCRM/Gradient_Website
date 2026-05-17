@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import HeroBanner from '../components/HeroBanner';
 import Breadcrumb from '../components/Breadcrumb';
 import CountryHeader from '../components/CountryHeader';
@@ -57,8 +58,34 @@ const StudyInIreland = () => {
     { name: 'Limerick', image: '/image/country/limerick.jpg' },
   ];
 
+  const irelandSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study in Ireland",
+          "item": "https://gradient-edu.com/study-in-ireland"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-[#fcfcfd] min-h-screen">
+      <SEO 
+        title="Study in Ireland | Top Universities, Fees & Intakes - Gradient Edu"
+        description="Discover study abroad opportunities in Ireland. Learn about top-ranked Irish universities, degrees taught in English, cost of living, part-time jobs, and stay-back work rights."
+        schemaMarkup={irelandSchemas}
+      />
       <HeroBanner
         title="Study in Ireland with Gradient Edu"
         subtitle="Ireland — A Welcoming & Affordable Study Destination"

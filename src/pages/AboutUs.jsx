@@ -5,6 +5,7 @@ import {
   Globe2, Briefcase, BarChart, Users, Bell, Blocks,
   Search, UserPlus, Phone, Play, Scale, Zap, Heart, Menu, Mail, User
 } from 'lucide-react';
+import SEO from '../components/SEO';
 import Providers from '../components/Providers';
 import { Link } from 'react-router-dom';
 
@@ -13,8 +14,34 @@ const AboutUs = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const aboutSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://gradient-edu.com/about-us"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEO 
+        title="About Gradient Edu | Empowering Global Student Journeys"
+        description="Learn about Gradient Edu's mission, values, and dedication to bridging the gap between ambitious students and elite international universities. Meet our team."
+        schemaMarkup={aboutSchemas}
+      />
 
       {/* 1. HERO SECTION (Orbital Layout) */}
       <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,13 +1,40 @@
 import React, { useEffect } from 'react';
 import { Star } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const PrivacyPolicy = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const privacySchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Privacy Policy",
+          "item": "https://gradient-edu.com/privacy-policy"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-gray-50/50 min-h-screen pb-24 font-sans">
+      <SEO 
+        title="Privacy Policy | Gradient Edu Data Security Standards"
+        description="Read the Privacy Policy of Gradient Edu. Learn how we collect, store, secure, and process your personal and educational data in compliance with international privacy standards."
+        schemaMarkup={privacySchemas}
+      />
       
       {/* Hero Header Section */}
       <div className="relative pt-20 pb-24 border-b border-gray-100 overflow-hidden bg-gradient-to-br from-indigo-50/70 via-white to-blue-50/70">

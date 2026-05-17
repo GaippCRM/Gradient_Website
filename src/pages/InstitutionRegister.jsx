@@ -1,14 +1,41 @@
 import React, { useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const InstitutionRegister = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const instRegisterSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Institution Partner Signup",
+          "item": "https://gradient-edu.com/institution-register"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-gradient-to-br from-indigo-50/70 via-white to-blue-50/70 min-h-screen pt-16 pb-24 font-sans relative overflow-hidden">
+      <SEO 
+        title="University & College Onboarding Partner Form | Gradient Edu"
+        description="Partner with Gradient Edu to expand your international reach and receive highly qualified student applications. Complete the onboarding enquiry form."
+        schemaMarkup={instRegisterSchemas}
+      />
 
       {/* Subtle Graph Paper Background overlay matching site theme */}
       <div className="absolute inset-0 z-0 opacity-40 pointer-events-none"

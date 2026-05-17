@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { GraduationCap, Briefcase, Brain, Heart, Cpu, Wrench, Compass, ChevronRight, ChevronLeft, CheckCircle2, Flag, Map, Globe, Navigation, Leaf, CircleDollarSign, Coins, Banknote, Diamond, Check, X, Eye, EyeOff, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import SEO from '../components/SEO';
 
 const StudentSignup = () => {
   const [step, setStep] = useState(1);
@@ -111,8 +112,34 @@ const StudentSignup = () => {
     return false;
   };
 
+  const signupSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Student Registration",
+          "item": "https://gradient-edu.com/student-signup"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-[#F8FAFC] flex flex-col font-sans selection:bg-blue-100 selection:text-blue-700">
+      <SEO 
+        title="Student Registration & Profile Setup | Gradient Edu"
+        description="Create your free Gradient Edu student account. Set your study preferences, select your target intakes, specify your budget, and search matches dynamically."
+        schemaMarkup={signupSchemas}
+      />
       
       <main className="flex-grow flex flex-col items-center p-4 md:p-8 pt-12 md:pt-16">
         

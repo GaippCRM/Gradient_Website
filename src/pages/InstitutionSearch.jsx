@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import SEO from '../components/SEO';
 import InstitutionList from '../components/InstitutionList';
 import InstitutionDetails from '../components/InstitutionDetails';
 
@@ -60,8 +61,34 @@ const InstitutionSearch = () => {
     return filteredInstitutions.find(i => i.id === selectedId) || filteredInstitutions[0];
   }, [selectedId, filteredInstitutions]);
 
+  const instSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Institutions",
+          "item": "https://gradient-edu.com/institution-search"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-[#f8fafc] flex flex-col font-sans selection:bg-blue-100 selection:text-blue-700">
+      <SEO 
+        title="Explore & Find Global Universities & Colleges | Gradient Edu"
+        description="Find and compare world-class universities, colleges, and academic institutions partnering with Gradient Edu. Filter by location, check intakes, and compare programs."
+        schemaMarkup={instSchemas}
+      />
       <main className="flex-grow pt-24 pb-12">
         <div className="max-w-[1440px] mx-auto px-4 md:px-8">
           <div className="flex flex-col lg:flex-row gap-8 items-start">

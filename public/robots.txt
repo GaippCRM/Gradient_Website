@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /agent-register
+Disallow: /institution-register
+Disallow: /student-signup
+
+Sitemap: https://gradient-edu.com/sitemap.xml

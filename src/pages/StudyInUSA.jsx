@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import HeroBanner from '../components/HeroBanner';
 import Breadcrumb from '../components/Breadcrumb';
 import CountryHeader from '../components/CountryHeader';
@@ -57,8 +58,34 @@ const StudyInUSA = () => {
     { name: 'San Francisco', image: '/image/country/sanfrancisco.jpg' },
   ];
 
+  const usaSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study in USA",
+          "item": "https://gradient-edu.com/study-in-usa"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-[#fcfcfd] min-h-screen">
+      <SEO 
+        title="Study in USA | Top Universities, Visas & Student Life - Gradient Edu"
+        description="Start your study abroad journey in the USA. Comprehensive guide to top American universities, F1 student visas, campus life, part-time work, OPT guidelines, and costs."
+        schemaMarkup={usaSchemas}
+      />
       <HeroBanner
         title="Study in the USA with Gradient Edu"
         subtitle="Discover World-Class Education & Career Opportunities"

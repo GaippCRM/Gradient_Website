@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import HeroBanner from '../components/HeroBanner';
 import Breadcrumb from '../components/Breadcrumb';
 import CountryHeader from '../components/CountryHeader';
@@ -77,8 +78,46 @@ const StudyInGermany = () => {
     { name: 'Hamburg', image: '/image/country/hamburg.jpg' },
   ];
 
+  const germanySchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study in Germany",
+          "item": "https://gradient-edu.com/study-in-germany"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ];
+
   return (
     <div className="bg-[#fcfcfd] min-h-screen">
+      <SEO 
+        title="Study in Germany | Top Free Universities & Blocked Account Guide - Gradient Edu"
+        description="Learn about studying in Germany. Guide to top public universities, free tuition programs, blocked account requirements (€11,904/year), student visa essentials, and career opportunities."
+        schemaMarkup={germanySchemas}
+      />
       <HeroBanner
         title="Study in Germany with Gradient Edu"
         subtitle="Discover World-Class Education in the Heart of Europe"

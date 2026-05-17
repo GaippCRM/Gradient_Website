@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import HeroBanner from '../components/HeroBanner';
 import Breadcrumb from '../components/Breadcrumb';
 import CountryHeader from '../components/CountryHeader';
@@ -57,8 +58,34 @@ const StudyInAustralia = () => {
     { name: 'Perth', image: '/image/country/perth.jpg' },
   ];
 
+  const australiaSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study in Australia",
+          "item": "https://gradient-edu.com/study-in-australia"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-[#fcfcfd] min-h-screen">
+      <SEO 
+        title="Study in Australia | Top Universities, Costs & Work Visas - Gradient Edu"
+        description="Your comprehensive guide to studying in Australia. Find top universities, standard intakes, student visa (subclass 500) requirements, costs, part-time work, and post-study visas."
+        schemaMarkup={australiaSchemas}
+      />
       <HeroBanner
         title="Study in Australia with Gradient Edu"
         subtitle="Experience Top-Quality Education & Work Opportunities"

@@ -1,13 +1,40 @@
 import React, { useEffect } from 'react';
 import { Star } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const ReferEarn = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const referSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Refer & Earn",
+          "item": "https://gradient-edu.com/refer-earn"
+        }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-gray-50/50 min-h-screen pb-24 font-sans">
+      <SEO 
+        title="Refer & Earn Rewards | Gradient Edu Referral Program"
+        description="Help friends fulfill their study abroad dreams and earn exclusive rewards. Join the Gradient Edu referral program and start sharing educational pathways today."
+        schemaMarkup={referSchemas}
+      />
       
       {/* Hero Header Section */}
       <div className="relative pt-20 pb-24 border-b border-gray-100 overflow-hidden bg-gradient-to-br from-indigo-50/70 via-white to-blue-50/70">

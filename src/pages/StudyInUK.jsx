@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO';
 import HeroBanner from '../components/HeroBanner';
 import Breadcrumb from '../components/Breadcrumb';
 import CountryHeader from '../components/CountryHeader';
@@ -60,13 +61,52 @@ const StudyInUK = () => {
     { name: 'Leeds', image: '/image/country/leeds.jpg' },
   ];
 
+  const ukSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gradient-edu.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Study in the UK",
+          "item": "https://gradient-edu.com/study-in-uk"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ];
+
   return (
     <div className="bg-[#fcfcfd] min-h-screen">
+      <SEO 
+        title="Study in UK | Top Universities, Cost of Living & FAQs - Gradient Edu"
+        description="Explore premium opportunities to study in the UK. Search top universities, popular degree programs, student visa guidelines, cost of living, part-time jobs, and book a free video counseling session."
+        schemaMarkup={ukSchemas}
+      />
       <HeroBanner
         title="Study in the UK"
         subtitle="Transform your life in the hub of global education"
         bgImage="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=2070"
       />
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-10 pb-20">
         <div className="bg-white rounded-t-3xl p-6 shadow-sm border-x border-t border-gray-100/50">

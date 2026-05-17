@@ -19,6 +19,7 @@ const Footer = () => {
           </div>
 
           {/* Explore Col */}
+          
           <div>
             <h4 className="text-[11px] font-bold text-gray-400 mb-6 tracking-widest uppercase">Explore</h4>
             <ul className="space-y-3 text-[13px] font-medium text-gray-600">

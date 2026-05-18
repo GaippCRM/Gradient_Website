@@ -117,7 +117,7 @@ const StudyInUSA = () => {
                   Discover World-Class Education & Career Opportunities
                 </h3>
                 <p className="text-gray-500 leading-relaxed text-[15px]">
-                  The United States remains one of the most popular destinations for international students, characterized by a diverse range of globally recognized universities, cutting edge research programmes, and flexible academic pathways. With thousands of institutions and millions of international students across all 50 states, the U.S. offers unparalleled choice in study fields, campus experiences, and post-graduation opportunities. (<a href="https://opendoorsdata.org/annual-release/international-students/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">IIE Open Doors</a>)
+                  The United States remains one of the most popular destinations for international students, characterized by a diverse range of globally recognized universities, cutting edge research programmes, and flexible academic pathways. With thousands of institutions and millions of international students across all 50 states, the U.S. offers unparalleled choice in study fields, campus experiences, and post-graduation opportunities. (<a href="https://opendoorsdata.org/annual-release/international-students/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">IIE Open Doors</a>)
                 </p>
               </section>
 
@@ -171,7 +171,7 @@ const StudyInUSA = () => {
                     </p>
                     <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-500 text-[15px]">
                       <li>
-                        A confirmed offer of admission from a SEVP-certified U.S. institution. (<a href="https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html?utm_source=chatgpt.com" className="text-blue-500 hover:underline">travel.gov</a>)
+                        A confirmed offer of admission from a SEVP-certified U.S. institution. (<a href="https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">travel.gov</a>)
                       </li>
                     </ul>
                   </div>
@@ -179,14 +179,14 @@ const StudyInUSA = () => {
                   <div>
                     <h3 className="text-[16px] font-bold text-gray-900 mb-3">Work while studying</h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      F-1 students may work on campus (up to 20 hours/week during term) and, after the first academic year, may become eligible for additional practical training options under strict U.S. rules. (<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment?utm_source=chatgpt.com" className="text-blue-500 hover:underline">uscis.gov</a>)
+                      F-1 students may work on campus (up to 20 hours/week during term) and, after the first academic year, may become eligible for additional practical training options under strict U.S. rules. (<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">uscis.gov</a>)
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-[16px] font-bold text-gray-900 mb-3">Post-graduation practical training</h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      After completing your degree, F-1 students can apply for <strong className="font-bold text-gray-900">Optional Practical Training (OPT)</strong> — authorization to work in the U.S. for up to 12 months in a field related to your study, with a possible 24-month STEM extension for eligible subjects. (<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment?utm_source=chatgpt.com" className="text-blue-500 hover:underline">uscis.gov</a>)
+                      After completing your degree, F-1 students can apply for <strong className="font-bold text-gray-900">Optional Practical Training (OPT)</strong> — authorization to work in the U.S. for up to 12 months in a field related to your study, with a possible 24-month STEM extension for eligible subjects. (<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">uscis.gov</a>)
                     </p>
                   </div>
                 </div>
@@ -204,7 +204,7 @@ const StudyInUSA = () => {
 
                 <ul className="space-y-3 ml-6 list-disc text-gray-700 text-[15px] mb-4">
                   <li>
-                    <strong className="font-bold text-gray-900">Undergraduate tuition:</strong> USD approx. $20,000 - $45,000 per year (public) and $50,000 - $80,000 (private). (<a href="https://www.aeccglobal.com/study-in-usa/cost-of-study?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Study Overseas Consultants</a>)
+                    <strong className="font-bold text-gray-900">Undergraduate tuition:</strong> USD approx. $20,000 - $45,000 per year (public) and $50,000 - $80,000 (private). (<a href="https://www.aeccglobal.com/study-in-usa/cost-of-study?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Study Overseas Consultants</a>)
                   </li>
                 </ul>
 

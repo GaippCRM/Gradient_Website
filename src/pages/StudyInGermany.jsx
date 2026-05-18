@@ -149,7 +149,7 @@ const StudyInGermany = () => {
                   Discover World-Class Education in the Heart of Europe
                 </h3>
                 <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
-                  Germany is one of the most sought-after destinations for international students — offering high-quality education, strong career prospects, and cultural experiences in the heart of Europe. With a combination of globally recognised universities, affordable education options, and vibrant student life, Germany presents an excellent path for students pursuing undergraduate, graduate, or professional programmes. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
+                  Germany is one of the most sought-after destinations for international students — offering high-quality education, strong career prospects, and cultural experiences in the heart of Europe. With a combination of globally recognised universities, affordable education options, and vibrant student life, Germany presents an excellent path for students pursuing undergraduate, graduate, or professional programmes. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
                 </p>
                 <p className="text-gray-500 leading-relaxed text-[15px]">
                   Gradient Edu helps you navigate every step of your study-in-Germany journey — from course exploration and university shortlisting to applications, visas, and pre-departure support.
@@ -169,7 +169,7 @@ const StudyInGermany = () => {
                       World-Class Universities & Quality Education
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Germany is home to hundreds of highly ranked universities and research institutions offering programmes in fields like engineering, business, sciences, humanities, and more. Many public universities have little to no tuition fees for both EU and non-EU students, making education both prestigious and affordable. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
+                      Germany is home to hundreds of highly ranked universities and research institutions offering programmes in fields like engineering, business, sciences, humanities, and more. Many public universities have little to no tuition fees for both EU and non-EU students, making education both prestigious and affordable. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
                     </p>
                   </div>
 
@@ -179,7 +179,7 @@ const StudyInGermany = () => {
                       Affordable Cost of Living & Education
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Compared to many global study destinations, Germany offers lower living costs — with average monthly expenses (including housing, food, transport, and insurance) typically ranging between €850 – €1,200. (<a href="https://www.msmunify.com/study-in-germany/cost-of-studying/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">MSM Unify</a>)
+                      Compared to many global study destinations, Germany offers lower living costs — with average monthly expenses (including housing, food, transport, and insurance) typically ranging between €850 – €1,200. (<a href="https://www.msmunify.com/study-in-germany/cost-of-studying/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">MSM Unify</a>)
                     </p>
                   </div>
 
@@ -189,7 +189,7 @@ const StudyInGermany = () => {
                       International & Supportive Community
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Germany hosts a large international student population, creating an inclusive environment where students from around the world connect, learn, and grow. Universities also provide student support services, orientation programmes, and social activities. (<a href="https://education.ec.europa.eu/study-in-europe/country-profiles/all-country-profiles/germany" className="text-blue-500 hover:underline">European Education Area</a>)
+                      Germany hosts a large international student population, creating an inclusive environment where students from around the world connect, learn, and grow. Universities also provide student support services, orientation programmes, and social activities. (<a href="https://education.ec.europa.eu/study-in-europe/country-profiles/all-country-profiles/germany" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">European Education Area</a>)
                     </p>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ const StudyInGermany = () => {
                   <div>
                     <h3 className="text-[16px] font-bold text-gray-900 mb-3">Visa & Financial Proof</h3>
                     <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
-                      Non-EU/EEA students must apply for a German Student Visa before arrival. A key requirement is demonstrating proof of sufficient financial resources — usually via a blocked account with funds to cover approximately €992 per month (about €11,904 per year). (<a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">DAAD</a>)
+                      Non-EU/EEA students must apply for a German Student Visa before arrival. A key requirement is demonstrating proof of sufficient financial resources — usually via a blocked account with funds to cover approximately €992 per month (about €11,904 per year). (<a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">DAAD</a>)
                     </p>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
                       Gradient Edu provides step-by-step advice on preparing your visa application, understanding financial prerequisites, and navigating embassy procedures.
@@ -222,7 +222,7 @@ const StudyInGermany = () => {
                   <div>
                     <h3 className="text-[16px] font-bold text-gray-900 mb-3">Health Insurance</h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Health insurance is mandatory for all students in Germany. Once enrolled, students typically transition to local public or recognised private plans as part of maintaining visa status. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
+                      Health insurance is mandatory for all students in Germany. Once enrolled, students typically transition to local public or recognised private plans as part of maintaining visa status. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
                     </p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ const StudyInGermany = () => {
                 </h2>
 
                 <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
-                  Most public universities do not charge tuition for bachelor's and many master's programmes, though you may need to pay a semester contribution fee that supports student services and transport. (<a href="https://education.ec.europa.eu/study-in-europe/country-profiles/all-country-profiles/germany" className="text-blue-500 hover:underline">European Education Area</a>)
+                  Most public universities do not charge tuition for bachelor's and many master's programmes, though you may need to pay a semester contribution fee that supports student services and transport. (<a href="https://education.ec.europa.eu/study-in-europe/country-profiles/all-country-profiles/germany" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">European Education Area</a>)
                 </p>
                 <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
                   Living costs vary by city and lifestyle, but here's a snapshot of typical monthly expenses:
@@ -255,7 +255,7 @@ const StudyInGermany = () => {
                     <span className="font-bold text-gray-900">Health Insurance:</span> €80 – €160
                   </li>
                   <li>
-                    <span className="font-bold text-gray-900">Miscellaneous:</span> €50 – €100 (<a href="https://www.msmunify.com/study-in-germany/cost-of-studying/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">MSM Unify</a>)
+                    <span className="font-bold text-gray-900">Miscellaneous:</span> €50 – €100 (<a href="https://www.msmunify.com/study-in-germany/cost-of-studying/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">MSM Unify</a>)
                   </li>
                 </ul>
 
@@ -270,10 +270,10 @@ const StudyInGermany = () => {
                   Work & Career Opportunities
                 </h2>
                 <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
-                  International students in Germany are generally permitted to work part-time while studying (e.g., up to 120 full days or 20 hours per week) — helping you gain experience and support living costs. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
+                  International students in Germany are generally permitted to work part-time while studying (e.g., up to 120 full days or 20 hours per week) — helping you gain experience and support living costs. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
                 </p>
                 <p className="text-gray-500 leading-relaxed text-[15px]">
-                  After graduation, many students choose to apply for a <strong className="font-bold text-gray-900">post-study work permit</strong> (typically up to 18 months) to explore professional opportunities in Germany or across Europe. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
+                  After graduation, many students choose to apply for a <strong className="font-bold text-gray-900">post-study work permit</strong> (typically up to 18 months) to explore professional opportunities in Germany or across Europe. (<a href="https://www.britannicaoverseas.com/study-in-germany?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Britannica Overseas Education</a>)
                 </p>
               </section>
 

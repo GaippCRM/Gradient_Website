@@ -117,7 +117,7 @@ const StudyInIreland = () => {
                   Ireland — A Welcoming & Affordable Study Destination
                 </h3>
                 <p className="text-gray-500 leading-relaxed text-[15px]">
-                  Ireland is rapidly gaining popularity among international students for its globally recognised degrees, English-medium programmes, and vibrant cultural environment. With strong traditions in technology, pharmaceuticals, business, and creative sectors, Ireland offers both quality education and real work experience opportunities. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                  Ireland is rapidly gaining popularity among international students for its globally recognised degrees, English-medium programmes, and vibrant cultural environment. With strong traditions in technology, pharmaceuticals, business, and creative sectors, Ireland offers both quality education and real work experience opportunities. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                 </p>
               </section>
 
@@ -142,7 +142,7 @@ const StudyInIreland = () => {
                       Work flexibility during study
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Students typically can work part-time (up to 20 hours per week) while studying — helping support living costs and build experience. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      Students typically can work part-time (up to 20 hours per week) while studying — helping support living costs and build experience. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
 
@@ -151,7 +151,7 @@ const StudyInIreland = () => {
                       Post-study work rights
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      After completing a degree at a recognised Irish institution, graduates may be eligible to stay and work for up to 12 months or more depending on their level of qualification. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      After completing a degree at a recognised Irish institution, graduates may be eligible to stay and work for up to 12 months or more depending on their level of qualification. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const StudyInIreland = () => {
                   <div>
                     <h3 className="text-[16px] font-bold text-gray-900 mb-3">Student Visa & Residency</h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      To study in Ireland, you'll need a student visa and, on arrival, a residence permit that covers the duration of your programme. This process ensures you can study, work part-time, and access local services legally. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      To study in Ireland, you'll need a student visa and, on arrival, a residence permit that covers the duration of your programme. This process ensures you can study, work part-time, and access local services legally. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
                 </div>
@@ -179,7 +179,7 @@ const StudyInIreland = () => {
                   Cost of Living & Tuition
                 </h2>
                 <p className="text-gray-500 leading-relaxed text-[15px] mb-4">
-                  Tuition costs and living expenses vary by institution and city, but planning ahead helps you understand how accommodation, food, transport, and insurance fit into your budget. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                  Tuition costs and living expenses vary by institution and city, but planning ahead helps you understand how accommodation, food, transport, and insurance fit into your budget. (<a href="https://edvoy.com/countries/study-in-ireland/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                 </p>
               </section>
 

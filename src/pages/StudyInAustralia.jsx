@@ -117,7 +117,7 @@ const StudyInAustralia = () => {
                   Experience Top-Quality Education & Work Opportunities
                 </h3>
                 <p className="text-gray-500 leading-relaxed text-[15px]">
-                  Australia is a top destination for international students thanks to its <strong className="font-bold text-gray-900">high-quality universities, vibrant multicultural cities, and strong post-study work prospects</strong>. With some of the world's leading institutions and an education system recognised globally for academic excellence, Australia offers opportunities across STEM, business, healthcare, and creative fields. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                  Australia is a top destination for international students thanks to its <strong className="font-bold text-gray-900">high-quality universities, vibrant multicultural cities, and strong post-study work prospects</strong>. With some of the world's leading institutions and an education system recognised globally for academic excellence, Australia offers opportunities across STEM, business, healthcare, and creative fields. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                 </p>
               </section>
 
@@ -133,7 +133,7 @@ const StudyInAustralia = () => {
                       Academic quality & lifestyle
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Australia consistently ranks among the world's leading higher-education destinations, with globally recognised degrees and supportive student services. (<a href="https://study-solutions.com/study-destinations/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Study Solutions Ltd</a>)
+                      Australia consistently ranks among the world's leading higher-education destinations, with globally recognised degrees and supportive student services. (<a href="https://study-solutions.com/study-destinations/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Study Solutions Ltd</a>)
                     </p>
                   </div>
 
@@ -142,7 +142,7 @@ const StudyInAustralia = () => {
                       Work while you study
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      International students can usually work part-time during study periods (up to 48 hours per fortnight) and full-time during breaks — helping you gain experience and support living costs. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      International students can usually work part-time during study periods (up to 48 hours per fortnight) and full-time during breaks — helping you gain experience and support living costs. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
 
@@ -151,7 +151,7 @@ const StudyInAustralia = () => {
                       Post-study work opportunities
                     </h3>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      After graduating, students may be eligible for a <strong className="font-bold text-gray-900">post-study work visa</strong> (generally 2–4 years depending on qualification level), offering time to gain professional experience in Australia. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      After graduating, students may be eligible for a <strong className="font-bold text-gray-900">post-study work visa</strong> (generally 2–4 years depending on qualification level), offering time to gain professional experience in Australia. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
                 </div>
@@ -172,10 +172,10 @@ const StudyInAustralia = () => {
                     <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-500 text-[15px] mb-4">
                       <li>Enrollment in a registered course</li>
                       <li>Financial capacity</li>
-                      <li>Health insurance through the Overseas Student Health Cover (OSHC) scheme (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)</li>
+                      <li>Health insurance through the Overseas Student Health Cover (OSHC) scheme (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)</li>
                     </ul>
                     <p className="text-gray-500 leading-relaxed text-[15px]">
-                      Visa applications also require compliance with character and financial requirements set by Australia's Department of Home Affairs. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">Edvoy</a>)
+                      Visa applications also require compliance with character and financial requirements set by Australia's Department of Home Affairs. (<a href="https://edvoy.com/countries/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Edvoy</a>)
                     </p>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ const StudyInAustralia = () => {
                 </p>
 
                 <p className="text-gray-500 leading-relaxed text-[15px]">
-                  Australia's supportive work policies and structured post-study pathways make it a strong choice for students planning both academic and career growth. (<a href="https://studyweg.com/study-in-australia/?utm_source=chatgpt.com" className="text-blue-500 hover:underline">StudyWeg</a>)
+                  Australia's supportive work policies and structured post-study pathways make it a strong choice for students planning both academic and career growth. (<a href="https://studyweg.com/study-in-australia/?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">StudyWeg</a>)
                 </p>
               </section>
 

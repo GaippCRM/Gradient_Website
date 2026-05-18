@@ -161,7 +161,7 @@ const AgentRegister = () => {
             {/* Form Footer */}
             <div className="text-center mt-6">
               <p className="text-[14px] text-[#6b7280]">
-                Already have an account? <a href="https://crm.gradient-edu.com/" className="text-blue-500 hover:text-blue-700 font-medium transition-colors">Sign in</a>
+                Already have an account? <a href="https://crm.gradient-edu.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 font-medium transition-colors">Sign in</a>
               </p>
             </div>
 

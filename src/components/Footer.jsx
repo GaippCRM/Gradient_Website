@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, MapPin, Phone, Facebook, Twitter, Instagram, Linkedin, GraduationCap, Landmark, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -23,11 +24,11 @@ const Footer = () => {
           <div>
             <h4 className="text-[11px] font-bold text-gray-400 mb-6 tracking-widest uppercase">Explore</h4>
             <ul className="space-y-3 text-[13px] font-medium text-gray-600">
-              {/* <li><a href="/institution-search" className="hover:text-blue-600 transition-colors">Institutions</a></li> */}
-              {/* <li><a href="/refer-earn" className="hover:text-blue-600 transition-colors flex items-center gap-2">Refer & Earn <span className="bg-green-100 text-green-600 px-1.5 py-0.5 rounded text-[10px]">New</span></a></li> */}
-              <li><a href="/course-search" className="hover:text-blue-600 transition-colors">Course Finder</a></li>
-              <li><a href="/agent-register" className="hover:text-blue-600 transition-colors">Agent Registration</a></li>
-              <li><a href="/institution-register" className="hover:text-blue-600 transition-colors">Institution Registration</a></li>
+              {/* <li><Link to="/institution-search" className="hover:text-blue-600 transition-colors">Institutions</Link></li> */}
+              {/* <li><Link to="/refer-earn" className="hover:text-blue-600 transition-colors flex items-center gap-2">Refer & Earn <span className="bg-green-100 text-green-600 px-1.5 py-0.5 rounded text-[10px]">New</span></Link></li> */}
+              <li><Link to="/course-search" className="hover:text-blue-600 transition-colors">Course Finder</Link></li>
+              <li><Link to="/agent-register" className="hover:text-blue-600 transition-colors">Agent Registration</Link></li>
+              <li><Link to="/institution-register" className="hover:text-blue-600 transition-colors">Institution Registration</Link></li>
               <li><a href="https://crm.gradient-edu.com/signin" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">CRM</a></li>
             </ul>
           </div>
@@ -36,11 +37,11 @@ const Footer = () => {
           <div>
             <h4 className="text-[11px] font-bold text-gray-400 mb-6 tracking-widest uppercase">About</h4>
             <ul className="space-y-3 text-[13px] font-medium text-gray-600">
-              <li><a href="/about-us" className="hover:text-blue-600 transition-colors">About Us</a></li>
-              {/* <li><a href="/agent-register" className="hover:text-blue-600 transition-colors">For Partners</a></li> */}
-              <li><a href="/privacy-policy" className="hover:text-blue-600 transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms-condition" className="hover:text-blue-600 transition-colors">Terms & Conditions</a></li>
-              <li><a href="/contact" className="hover:text-blue-600 transition-colors">Contact Us</a></li>
+              <li><Link to="/about-us" className="hover:text-blue-600 transition-colors">About Us</Link></li>
+              {/* <li><Link to="/agent-register" className="hover:text-blue-600 transition-colors">For Partners</Link></li> */}
+              <li><Link to="/privacy-policy" className="hover:text-blue-600 transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-condition" className="hover:text-blue-600 transition-colors">Terms & Conditions</Link></li>
+              <li><Link to="/contact" className="hover:text-blue-600 transition-colors">Contact Us</Link></li>
             </ul>
           </div>
 

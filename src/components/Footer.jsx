@@ -10,13 +10,13 @@ const Footer = () => {
 
           {/* Brand Col */}
           <div className="lg:col-span-1">
-            <div className="flex items-center mb-8 group">
+            <Link to="/" className="flex items-center mb-8 group cursor-pointer">
               <img 
                 src="/image/logo_second.png" 
                 alt="Gradient Edu Logo" 
                 className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
-            </div>
+            </Link>
           </div>
 
           {/* Explore Col */}
